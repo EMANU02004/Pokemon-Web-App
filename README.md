@@ -1,6 +1,6 @@
 # Pokemon-Web-App
 
-A simple, responsive Pokémon browser built with plain HTML, CSS, and JavaScript. The project uses the [PokéAPI](https://pokeapi.co/) to load Pokémon data and displays it in a searchable, paginated grid.
+A simple, responsive Pokemon browser built with plain HTML, CSS, and JavaScript. The project uses the [PokéAPI](https://pokeapi.co/) to load Pokemon data and displays it in a searchable, paginated grid.
 
 ## Features
 
