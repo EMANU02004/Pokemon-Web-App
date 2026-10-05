@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A simple Pokémon search page using the PokéAPI.">
-  <title>My Pokémon List</title>
+  <title>My Pokemon List</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="page-header">
     <div class="header-content">
-      <h1>My Pokémon List</h1>
-      <p>Browse Pokémon from the PokéAPI.</p>
+      <h1>My Pokemon List</h1>
+      <p>Browse Pokemon from the PokeAPI.</p>
       <div class="search-wrap">
         <label for="search-input">Search:</label>
         <input id="search-input" type="search" placeholder="Type a name..." autocomplete="off">
@@ -24,17 +24,17 @@
   <main class="container">
     <div class="section-heading">
       <div>
-        <h2>Pokémon</h2>
+        <h2>Pokemon</h2>
       </div>
-      <p id="status-message" class="status-message" role="status">Loading Pokémon...</p>
+      <p id="status-message" class="status-message" role="status">Loading Pokemon...</p>
     </div>
 
     <section id="pokemon-grid" class="pokemon-grid" aria-live="polite"></section>
     <div id="empty-state" class="empty-state" hidden>
-      <h3>No Pokémon found</h3>
+      <h3>No Pokemon found</h3>
       <p>Try searching for a different name.</p>
     </div>
-    <nav class="pagination" aria-label="Pokémon pages">
+    <nav class="pagination" aria-label="Pokemon pages">
       <button id="previous-button" type="button">Previous</button>
       <span id="page-number">Page 1</span>
       <button id="next-button" type="button">Next</button>
